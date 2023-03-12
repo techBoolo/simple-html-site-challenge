@@ -10,6 +10,6 @@ return call_user_func(function () {
     if ($uri !== '/' && file_exists($requested)) {
         return false;
     }
- 
+
     require_once $publicDir . '/index.php';
 });
